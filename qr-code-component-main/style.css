@@ -14,8 +14,8 @@ body {
 }
 
 .container {
-  height: 450px;
-  width: 25%;
+  height: 440px;
+  width: 23%;
 
   display: flex;
   flex-direction: column;
@@ -68,6 +68,8 @@ body {
     align-items: center;
     padding-top: 20px;
     margin-top: 37px;
+    padding-right: 13px;
+    padding-left: 13px
 }
 .inner h1,
 p {
