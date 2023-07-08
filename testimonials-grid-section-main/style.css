@@ -8,7 +8,7 @@
   body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
-    line-height: 1.5;
+    line-height: auto;
   }
   
   /* Grid container */
@@ -27,7 +27,8 @@
     background-color: rgba(255, 255, 255, 0.8);
     padding: 30px;
     text-align: center;
-    height: ;
+    height: 220px;
+    /* border: 1px solid; */
   }
   
   /* Grid item 1 */
@@ -41,6 +42,7 @@
   .item1 p,
   .item1 h3 {
     color: rgba(255, 255, 255, 0.8);
+    align-items: start;
   }
   
   /* Grid item 2 */
@@ -60,6 +62,7 @@
     grid-row: 1 / span 2;
     background-color:hsl(0, 0%, 100%);
     color: #fff;
+    border: 1px solid;
   }
   
   .item3 p,
@@ -94,6 +97,7 @@
   /* Images */
   img {
     max-width: 100%;
+    border-radius: 50%;
   }
   
   /* Text styles */
