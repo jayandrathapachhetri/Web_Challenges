@@ -1,11 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 600px;
-    width: 400px;
-    background-color: blueviolet;
+    height: 500px;
+    width: 320px;
+    background-color: white;
     margin: 50px;
     padding: 50px;
+    border: 1px solid black;
+}
+
+.container h2{
+    margin-bottom: 15px;
+}
+
+.container p{
+    margin-bottom: 15px;
+    font-size: small;
+    text-align: center;
+}
+
+.container .box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    background-color: azure;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+
+.btn1{
+    padding: 10px 45px;
+    margin-bottom: 15px;
+    /* margin: 200px 10px; */
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.container .btn2{
+    padding: 10px 45px;
+    margin-bottom: 15px;
+    font-size: medium;
+    font: bolder;
 }
